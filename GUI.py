@@ -192,6 +192,7 @@ ttk.Button(app, text='Check', command = find_survival, padx=20, pady=2).grid(row
 # Result
 resultVar = ttk.Variable(app)
 ttk.Label(app, textvariable=resultVar, font=('Times New Roman',20)).grid(row = 12, column=0, columnspan=2)
+#main
 
 
 
